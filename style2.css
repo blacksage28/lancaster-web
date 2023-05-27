@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.front-view{
+    display: flex;
+    flex-direction: column;
+}
+.front-img{
+    background-image: url(/asset/images/image1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90dvh;
+    margin-top: -20px;
+}
+.header{
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+
+}
+.left{
+     width: 40%;
+     padding: 2rem;
+}
+.right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 2.3rem;
+}
+.topright{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.2rem;
+    margin-bottom: -70px;
+}
+.topright a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(69, 68, 68);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botright{
+width: 100%;
+display: flex;
+gap: 15px;
+align-items: center;
+justify-content: flex-end;
+}
+.botright input{
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(215, 213, 209);
+    padding-left: 6px;
+}
+.botright input:focus{
+    border: 1.5px solid rgb(102, 102, 102);
+}
+.fa-magnifying-glass{
+    color: #4B4B4B;
+}
+.nav{
+   background-color: #B5121B;
+   height: 3rem;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   padding-left: 2rem; 
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.front-desc{
+    background-color: black;
+    color: white;
+    height: 9rem;
+    margin-top: -55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+}
+.front-desc p{
+    font-size: 14px;
+    text-align: center;
+}
+.front-desc a{
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #B5121B;
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+
+}
