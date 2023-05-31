@@ -75,6 +75,9 @@ justify-content: flex-end;
    align-items: center;
    gap: 20px;
    padding-left: 2rem; 
+   position: sticky;
+   top: 0;
+   z-index: 500;
 }
 .nav a{
     text-decoration: none;
@@ -82,7 +85,13 @@ justify-content: flex-end;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.front-desc{
+.nav a:hover{
+    background-color: white;
+    color: black;
+    height: 2.5rem;
+    
+}
+.first-desc{
     background-color: black;
     color: white;
     height: 9rem;
@@ -93,16 +102,105 @@ justify-content: flex-end;
     justify-content: space-around;
     padding-top: 1.5rem;
 }
-.front-desc p{
+.first-desc p{
     font-size: 14px;
     text-align: center;
 }
-.front-desc a{
+.first-desc a{
     text-decoration: none;
     font-size: 14px;
     background-color: #B5121B;
-    color: white;
+    color: black;
     padding: 0.6rem 1rem;
     border-radius: 8px;
+    font-weight: 500;
+    transition: 0.3s all ease-in-out;
+}
+.first-desc a:hover{
+    background-color: #222222;
+    cursor: pointer;
+    color: white;
 
 }
+.second-desc{
+    background-color: white;
+    color: black;
+    height: 10rem;
+    margin: 40px 40px;
+    justify-content: left;
+}
+.second-desc h1{
+    font-size: 35px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    color: #4B4B4B;
+}
+.head2{
+    padding-bottom: 5rem;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head2 p{
+    line-height: 25px;
+}
+.head2 a{
+    text-decoration: none;
+    font-size: 14px;
+    background-color:#B5121B;
+    color: black;
+    padding: 1.3rem 3rem;
+    border-radius: 8px;
+    margin-left: 60px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+.head2 a:hover{
+    background-color: #222222;
+    cursor: pointer;
+    color: white;
+}
+.programmes{
+    background-color: #EFEFEF;
+    color: #4B4B4B;
+    height: 110dvh;
+    padding: 2rem 1rem;
+}
+.prog-items{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.prog-items div{
+    width: 19%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.prog-items img{
+    width: 100%;
+    height: 120px;
+}
+.prog-items a{
+    align-items: center;
+    display: flex; 
+    justify-content: left;
+    padding: 1rem 2rem;
+    font-weight: ;
+}
+.prog-items a:hover{
+
+}
+
+
+
+
+
+
+.fixed-desc{
+    background-color: white;
+    padding: 5rem 2rem;
+} 
